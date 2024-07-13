@@ -47,6 +47,7 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     //MapBox
     implementation("com.mapbox.maps:android:11.5.0")
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
