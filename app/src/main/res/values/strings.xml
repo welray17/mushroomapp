@@ -1,0 +1,4 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Mushroom App</string>
+    <string name="mapbox_access_token" translatable="false" tools:ignore="UnusedResources">pk.eyJ1IjoiMjEwMTAzMTM0IiwiYSI6ImNseWcwN3B2NzA0bGQyanNhb3RzcHd4aXcifQ.XWWut03ir4QtN1f9_SGP0w</string>
+</resources>
