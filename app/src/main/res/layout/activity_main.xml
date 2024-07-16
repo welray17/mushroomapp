@@ -12,5 +12,24 @@
         app:mapbox_cameraZoom="6.0"
         app:mapbox_cameraPitch="0.0"
         app:mapbox_cameraBearing="0.0" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="end|center_vertical"
+        android:padding="16dp">
 
+        <Button
+            android:id="@+id/zoom_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/zoom_out_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-" />
+
+    </LinearLayout>
 </FrameLayout>
