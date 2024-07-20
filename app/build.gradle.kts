@@ -45,9 +45,11 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation ("com.google.android.material:material:1.12.0")
     //MapBox
     implementation("com.mapbox.maps:android:11.5.0")
-
+    //Gson
+    implementation(libs.gson)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
